@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS interno: apenas na pagina em questão -->
+    <style type="text/css">
+        p {color:brown;
+            margin-left: 20px;
+        
+        }
+    </style>
+    <!-- CSS externo: multiplas paginas-->
+    <link rel=" stylesheet" type="text/css" href="estilo.css" />
+
+</head>
+<body>
+    <p> Preencha o formulário <br/><br/></p>
+    <p> Digite seu nome: </p>
+    
+    <form action="">
+        <input type="text" name="Digite seu nome:"/>
+    </form>
+
+    <p> Digite sua senha: </p>
+
+    <form action="">
+        <input type="password" name=""/>
+    </form>
+
+    <form>
+        <p>Selecione as linguagens que você gosta:<br/></p>
+
+        <input type="checkbox" name="linguagem" value="html"/><label> HTML</label><br/>
+        <input type="checkbox" name="linguagem" value="xhtml"/><label> XHTML</label><br/>
+        <input type="checkbox" name="linguagem" value="CSS"/><label> CSS</label><br/><br/>
+
+    </form>
+   
+    <form>
+        <p>Vocês entenderam ?<br/></p>
+        <input type="radio" name="entenderam" value="sim"/>
+        <label> Sim</label><br/>
+        <input type="radio" name="entenderam" value="não"/>
+        <label> Não</label><br/><br/>
+
+        <input type="submit" value="Enviar dados " />
+
+    </form>
+
+   <!---  <form action="">
+        <select type="linguagem">
+            <option value="html">HTML</option>
+            <option value="html">XHTML</option>
+            <option value="html">CSS</option><br/>
+        </select>
+        <br/>
+        <input type="submit" name="">
+    </form> --->
+</body>
+</html>
